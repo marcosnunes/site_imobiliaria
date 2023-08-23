@@ -6,6 +6,8 @@ html, body {
 div {
     font-family: Tahoma;
     padding: 25px 0;
+    display: block;
+    margin: 0 auto;
 }
 
 img {
@@ -47,7 +49,7 @@ p {
 
 iframe {
     width: 600px;
-    height: 250px;
+    height: 350px;
     border: 0;
     display: block;
     margin: 0 auto;
@@ -94,14 +96,14 @@ iframe {
 .secao-sobre p,
 .secao-servicos p,
 .secao-corretores p {
-    margin: 25px 150px;
-    width: 800px;
+    padding: 25px 50px;
+    display: block;
+    margin: 0 auto;
 }
 
 .secao-contato p {
     background-color: black;
     margin: 25px 25px;
-    width: 800px;
 }
 
 .secao-contato a {
@@ -118,7 +120,17 @@ iframe {
     text-align: center;
 }
 
-.secao-sobre img,
-.secao-corretores img {
-    width: 450px;
+.resizable {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+ 
 }
+
+.resizable img,
+.resizable iframe {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+}
+
