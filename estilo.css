@@ -95,7 +95,7 @@ iframe {
 .secao-servicos p,
 .secao-corretores p {
     margin: 25px 150px;
-    padding: 15px 0;
+    width: 800px;
 }
 
 .secao-contato p {
