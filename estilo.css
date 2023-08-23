@@ -70,7 +70,8 @@ iframe {
 }
 
 .lista-servicos {
-    text-align: center;
+    display: block;
+    margin: 0 auto;
     width: 135px;
 }
 
