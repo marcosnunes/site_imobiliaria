@@ -100,8 +100,8 @@ iframe {
 
 .secao-contato p {
     background-color: black;
-    margin: 25px 150px;
-    padding: 15px 0;
+    margin: 25px 25px;
+    width: 800px;
 }
 
 .secao-contato a {
