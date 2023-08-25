@@ -2,17 +2,22 @@ html, body {
     scroll-behavior: smooth;
 }
 
+div {
+    font-family: Tahoma;
+}
 
 .secao-largura-limitada {
-    font-family: Tahoma;
     padding: 25px 0;
     margin: 0 auto;
+    width: 1024px
 }
 
-img {
+.secao-menu img {
     display: block;
     margin: 0 auto;
+    height: 150px;
 }
+
 
 h1, h2 {
     text-align: center;
@@ -27,17 +32,20 @@ h2 {
 }
 
 .secao-menu {
-    background-color: #afddfb;    
+    background-color: #afddfb; 
+    padding: 35px;   
 }
 
 .secao-menu p {
+    font-family: Tahoma;
     text-align: center;
     margin-bottom: 25px;
     margin-top: 15px;
 }
 
 .secao-sobre,
-.secao-corretores {
+.secao-corretores
+.secao-servicos {
     text-align: justify;
 }
 
@@ -53,10 +61,6 @@ iframe {
     margin: 0 auto;
 }
 
-.secao-menu img {
-    height: 150px;
-}
-
 .links-menu {
     justify-content: center;
 }
@@ -68,10 +72,6 @@ iframe {
 .secao-servicos {
     color: #ffffff;
     background-color: #1d80c1;
-}
-
-.secao-servicos p {
-    text-align: center;
 }
 
 .lista-servicos {
@@ -90,11 +90,8 @@ iframe {
     font-weight: bold;
 }
 
-.secao-sobre p,
-.secao-servicos p,
-.secao-corretores p {
-    padding: 25px 50px;
-    margin: 0 auto;
+.secao-servicos p {
+    margin: 25px;
 }
 
 .secao-contato p {
@@ -123,10 +120,10 @@ iframe {
  
 }
 
-.resizable img,
-.resizable iframe {
-  width: 50%;
-  height: 100%;
-  object-fit: cover;
+.secao-sobre img,
+.secao-corretores img {
+    width: 450px;
+    display: block;
+    margin: 0 auto;
 }
 
