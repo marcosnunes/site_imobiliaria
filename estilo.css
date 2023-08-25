@@ -9,7 +9,7 @@ div {
 .secao-largura-limitada {
     padding: 25px 0;
     margin: 0 auto;
-    width: 1024px
+    width: 53.3333%;
 }
 
 .secao-menu img {
@@ -55,7 +55,7 @@ p {
 }
 
 iframe {
-    width: 600px;
+    width: 60%;
     height: 350px;
     border: 0;
     margin: 0 auto;
@@ -107,22 +107,19 @@ iframe {
     margin-top: 50px;
 }
 
+.secao-banner img {
+    width: 100%;
+}
+
 .secao-contato {
     color: #ffffff;
     background-color: #1d80c1;
     text-align: center;
 }
 
-.resizable {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
- 
-}
-
 .secao-sobre img,
 .secao-corretores img {
-    width: 450px;
+    width: 60%;
     display: block;
     margin: 0 auto;
 }
