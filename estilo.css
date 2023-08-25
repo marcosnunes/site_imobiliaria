@@ -79,6 +79,11 @@ iframe {
     width: 135px;
 }
 
+.lista-contatos {
+    margin: 0 auto;
+    width: 135px;
+}
+
 .texto-azul,
 .secao-corretores a {
     color: #1d80c1;
