@@ -10,6 +10,7 @@ div {
     padding: 25px 0;
     margin: 0 auto;
     width: 53.3333%;
+    min-width: 320px;
 }
 
 .secao-menu img {
