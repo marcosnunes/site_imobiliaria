@@ -111,11 +111,11 @@ iframe {
 
 .secao-banner {
     margin-top: 50px;
-    min-width: 320px;
 }
 
 .secao-banner img {
     width: 100%;
+    min-width: 320px;
 }
 
 .secao-contato {
