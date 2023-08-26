@@ -33,7 +33,8 @@ h2 {
 }
 
 .secao-menu {
-    background-color: #afddfb;    
+    background-color: #afddfb;
+    min-width: 320px;    
 }
 
 .secao-menu p {
