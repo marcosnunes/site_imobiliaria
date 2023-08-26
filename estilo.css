@@ -86,7 +86,8 @@ iframe {
 
 .lista-contatos {
     margin: 0 auto;
-    width: 135px;
+    min-width: 270px;
+    line-height: 25px;
 }
 
 .texto-azul,
