@@ -63,7 +63,7 @@ iframe {
 }
 
 .links-menu {
-    justify-content: center;
+    text-align: justify;
 }
 
 .links-menu a {
