@@ -87,7 +87,7 @@ iframe {
 .lista-contatos {
     margin: 0 auto;
     min-width: 270px;
-    line-height: 25px;
+    line-height: 15px;
 }
 
 .texto-azul,
@@ -101,7 +101,7 @@ iframe {
     font-weight: bold;
 }
 
-.secao-contato p {
+.secao-contato .fundo-escuro {
     background-color: black;
     margin: 25px 25px;
 }
