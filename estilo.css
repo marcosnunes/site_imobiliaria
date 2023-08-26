@@ -30,6 +30,7 @@ h1 {
 
 h2 {
     font-size: 18px;
+    padding: 0 25px;
 }
 
 .secao-menu {
@@ -97,8 +98,6 @@ iframe {
     color: #e5eb34;
     font-weight: bold;
 }
-
-
 
 .secao-contato p {
     background-color: black;
